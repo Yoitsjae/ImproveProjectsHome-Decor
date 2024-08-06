@@ -1,0 +1,329 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(24, 25, 3, 0.9);
+  z-index: 100;
+  padding: 10px 20px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  flex: 1;
+  color: #6a5e5e;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 5px;
+  padding-bottom: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  background-color: #fbf0f0;
+  border-radius: 10%;
+  border-color: rgb(170, 153, 133);
+  cursor: pointer;
+}
+
+nav a:hover {
+  background-color: rgb(33, 72, 72);
+  color: rgb(243, 178, 95);
+}
+
+.background {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+}
+
+/* Logo styles */
+.logo {
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.welcome {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(33, 72, 72);
+  padding: 25px;
+  font-size: larger;
+  color: rgb(243, 178, 95);
+}
+
+.WelcomeMessage {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 525;
+  background-color: rgb(248, 199, 139);
+  color: #333;
+}
+
+.intro-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(33, 72, 72);
+  padding: 25px;
+  font-size: larger;
+  color: rgb(243, 178, 95);
+}
+
+.OS {
+  background-color: rgb(33, 72, 72);
+  padding: 25px;
+  font-size: 35px;
+  color: rgb(243, 178, 95);
+}
+
+.main {
+  padding: 2rem;
+}
+
+.content {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: rgb(216, 221, 206);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#services {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service {
+  flex: 1 1 calc(33.333% - 1rem);
+  background-color: #eaeaea;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-desc {
+  font-size: 1rem;
+}
+
+.price, .About, .approach {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(33, 72, 72);
+  padding: 25px;
+  font-size: larger;
+  color: rgb(243, 178, 95);
+}
+
+.AI{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(33, 72, 72);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: larger;
+  color: rgb(243, 178, 95);
+}
+/* Chat container */
+.chat-container {
+  border: 1px solid #cbb2b2;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.chat {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  height: 300px;
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+  margin-bottom: 1rem;
+}
+
+.assistant-message, .user-message {
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.assistant-message {
+  background-color: #e1f5fe;
+  text-align: left;
+}
+
+.user-message {
+  background-color: #dcedc8;
+  text-align: right;
+}
+
+#inquiry-form {
+  display: flex;
+}
+
+#user-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+#inquiry-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#inquiry-form button:hover {
+  background-color: #575757;
+}
+
+.gallery-button {
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #1c2d17;
+  color: rgb(195, 158, 66);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.gallery-button:hover {
+  background-color: #c4b1ab;
+  color: rgb(92, 86, 52);
+}
+
+.Contact-You{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(33, 72, 72);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: larger;
+    color: rgb(243, 178, 95);
+  }
+
+/* Form styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#chat-container, #signup-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#chat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.user-message, .assistant-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user-message {
+  background-color: #d1e7dd;
+  text-align: right;
+}
+
+.assistant-message {
+  background-color: #f8d7da;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contact{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(33, 72, 72);
+  padding: 25px;
+  font-size: larger;
+  color: rgb(243, 178, 95);  
+}
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.follow-us h2 {
+  margin-bottom: 1rem;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 0 0.5rem;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
